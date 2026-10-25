@@ -263,7 +263,7 @@ static qboolean FS_LoadProgs( void )
 
 static qboolean FS_DetermineRootDirectory( char *out, size_t size )
 {
-	const char *path = getenv( "XASH3D_BASEDIR" );
+	const char *path = getenv( "/data/data/su.xash3d.fwgs/files" );
 
 	if( !COM_StringEmptyOrNULL( path ))
 	{
